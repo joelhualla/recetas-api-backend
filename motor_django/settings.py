@@ -56,7 +56,7 @@ ROOT_URLCONF = 'motor_django.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'recetas' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
